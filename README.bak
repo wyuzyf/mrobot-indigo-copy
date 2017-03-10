@@ -11,7 +11,6 @@ mrobot_document/Mrobot使用手册
 	深度摄像头XtionPro：roslaunch mrobot_bringup turtlebot_fake_laser_openni2.launch 
 	或RPLIDAR激光雷达： roslaunch rplidar_ros rplidar.launch 
 	注：请将rplidar.launch中的ttyUSB0改为ttyUSB1，并先插入底盘并启动底盘再启动RPLIDAR。
-
 3.启动gmapping：
 	roslaunch mrobot_nav gmapping_demo.launch
 4.启动rviz：
